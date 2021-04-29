@@ -1,0 +1,16 @@
+struktur tabel dari service order payment
+
+orders
+- id
+- status
+- user_id
+- course_id
+- snap_url
+- metadata
+
+payment_logs
+- id
+- status
+- payment_type
+- order_id
+- raw_respone : response mentahan dari mistrans ke aplikasi kita
